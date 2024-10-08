@@ -34,11 +34,24 @@ Select ONE Additional Feature to Add
     <meta charset="utf-8" />
     <title>Unit 2 Project</title>
     <style>
-      
-       body { background-image: url(https://cdn.glitch.global/041cd526-0fe2-4530-a3c8-cd16d381660b/03c6e406-ef44-433b-9e64-e9228d2fbe28.image.png?v=1728315451792);
-     }
-      
-    
+      body {
+        background: linear-gradient(
+            217deg,
+            rgba(167, 161, 16, 0.7),
+            rgba(0, 0, 0, 0) 70.71%
+          ),
+          linear-gradient(
+            127deg,
+            rgba(223, 210, 10, 0.7),
+            rgba(0, 0, 0, 0.1) 70.71%
+          ),
+          linear-gradient(
+            336deg,
+            rgba(101, 201, 10, 1),
+            rgba(0, 0, 0, 0) 70.71%
+          );
+      }
+
       .pickle {
         color: green;
       }
@@ -48,7 +61,7 @@ Select ONE Additional Feature to Add
       .olivedrab {
         background-color: olivedrab;
       }
-      .darkolivegreen {
+      #darkolivegreen {
         background-color: darkolivegreen;
       }
       .olive {
@@ -56,9 +69,7 @@ Select ONE Additional Feature to Add
       }
     </style>
   </head>
-  <body class = "grad">
-      
-    
+  <body>
     <h1 style="font-family: brush script mt">
       <u> All About <strong class="pickle">Pickles</strong>--Updated</u>
     </h1>
@@ -94,7 +105,7 @@ Select ONE Additional Feature to Add
     <ol style="color: palegoldenrod; font-family: courier new; font-size: 17px">
       <li class="yellowgreen">Half Sour</li>
       <li class="olivedrab">Kosher Dill</li>
-      <li class="darkolivegreen">Garlic</li>
+      <li id="darkolivegreen">Garlic</li>
       <li class="olive">Full Sour</li>
       <li class="yellowgreen">Spicy</li>
       <li class="olivedrab">Cornichon</li>
@@ -120,6 +131,5 @@ Select ONE Additional Feature to Add
     <br />
 
     <h3>That is all, thank you.</h3>
-    
   </body>
 </html>
